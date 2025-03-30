@@ -3,34 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Syed Mubbushir Ahmed - Portfolio</title>
     <style>
-        body { font-family: 'Ubuntu', sans-serif; text-align: center; margin: 0; padding: 20px; }
-        h1 { color: #007BFF; font-weight: 700; }
-        p { font-weight: 300; }
-        .container { max-width: 800px; margin: auto; }
-        .project { border: 1px solid #ddd; padding: 10px; margin: 10px; border-radius: 10px; }
-        a { color: #007BFF; text-decoration: none; font-weight: 400; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px 0;
+        }
+        .contact a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
-    <h1>SYED MUBBUSHIR AHMED</h1>
-    <p>Mechanical Engineer | Powertrain Engineer @ NUST Formula Student Team </p>
-
-    <h2>Projects</h2>
+    <header>
+        <h1>Syed Mubbushir Ahmed</h1>
+        <h3>Mechanical Engineer | Powertrain Engineer</h3>
+    </header>
     <div class="container">
-        <div class="project">
-            <h3>Formula Student Exhaust Manifold Design</h3>
-            <p>Designed a lightweight 4-2-1 manifold for a Honda CBR 600 F4i engine.</p>
-            <a href="https://github.com/your-username/exhaust-manifold">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Pneumatic Gear Shifter</h3>
-            <p>Designed a hybrid gear-shifting system for a race car.</p>
-            <a href="https://github.com/your-username/gear-shifter">View Project</a>
-        </div>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a highly passionate mechanical engineer with a strong interest in automobile engineering and motorsports. Currently, I serve as a powertrain engineer for my university’s Formula Student team, where I enhance my race car engineering knowledge through hands-on experience.</p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Designed and optimized a lightweight 4-2-1 exhaust manifold for racing applications using SOLIDWORKS and Ricardo WAVE.</li>
+                <li>Developed a hybrid system for a racecar, optimizing engine + motor setups through lap-time simulations on OptimumLap.</li>
+                <li>Modelled a Proton Exchange Membrane Fuel Cell and simulated a heat pump organic Rankine cycle to improve efficiency.</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <a href="http://www.linkedin.com/in/syed-mubbushir-ahmed-03994824a" target="_blank">LinkedIn</a>
+            <a href="mailto:syedmubbushirahmed@gmail.com">syedmubbushirahmed@gmail.com</a>
+            <p>Phone: 0326-8921843</p>
+            <p>Location: Karachi, Pakistan</p>
+        </section>
     </div>
 </body>
 </html>
